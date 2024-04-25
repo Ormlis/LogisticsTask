@@ -1,0 +1,41 @@
+gen -mode=all -shuffle=0 > $
+gen -mode=random > $
+gen -mode=random -n=10 -m=20 -k=5 > $
+gen -mode=random -n=50 -m=150 -k=25 > $
+gen -mode=random -n=100 -m=200 -k=30 > $
+gen -mode=random -n=100 -m=200 -k=40 > $
+gen -mode=random -n=100 -m=200 -k=10 > $
+gen -mode=random -n=100 -m=200 -k=100 > $
+gen -mode=random -n=50 -m=100 -k=20 > $
+gen -mode=random -n=100 -m=100 -k=8 > $
+gen -mode=random -n=300 -m=900 -k=8 > $
+gen -mode=random -n=300 -m=900 -k=20 > $
+gen -mode=random -n=300 -m=900 -k=300 > $
+gen -mode=random -n=300 -m=900 -k=100 > $
+gen -mode=random -n=300 -m=450 -k=10 > $
+gen -mode=random -n=200 -m=450 -k=10 > $
+gen -mode=random -n=250 -m=450 -k=150 > $
+gen -mode=random -n=100 -m=450 -k=10 > $
+gen -mode=cycle > $
+gen -mode=cycle -n=100 -m=200 -k=50 > $
+gen -mode=cycle -n=75 -m=100 -k=50 -add=5 > $
+gen -mode=cycle -n=100 -m=145 -k=100 -add=5 > $
+gen -mode=cycle -n=300 -m=800 -k=100 -add=90 > $
+gen -mode=cycle -n=300 -m=800 -k=300 -add=90 > $
+gen -mode=cycle -n=300 -m=600 -k=200 -add=10 > $
+gen -mode=cycle -n=250 -m=300 -k=200 -add=15 > $
+gen -mode=cycle -n=200 -m=300 -k=100 -add=50 > $
+gen -mode=big > $
+gen -mode=big -n=100 -good=5 -deg=1 > $
+gen -mode=big -n=100 -good=5 -deg=2 > $
+gen -mode=big -n=100 -good=10 -deg=2 > $
+gen -mode=big -n=100 -good=15 -deg=1 > $
+gen -mode=big -n=50 -good=15 -deg=4 > $
+gen -mode=big -n=40 -good=6 -deg=5 > $
+gen -mode=big -n=300 -good=6 -deg=2 > $
+gen -mode=big -n=100 -good=40 -deg=7 > $
+gen -mode=big -n=300 -good=100 -deg=3 > $
+gen -mode=big -n=300 -good=2 -deg=2 > $
+gen -mode=big -n=300 -good=3 -deg=2 > $
+gen -mode=big -n=300 -good=5 -deg=3 > $
+gen -mode=big -n=300 -good=2 -deg=1 > $
